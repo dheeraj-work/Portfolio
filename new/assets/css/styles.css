@@ -115,3 +115,12 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+
+#header h1{
+    text-align: center;
+}
+@media screen and (max-width: 46em){
+    #header h1{
+        text-align: right;
+    }
+}
